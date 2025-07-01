@@ -1,6 +1,6 @@
 Gemspec/RequiredRubyVersion:
   Include:
-    - 'braintree.gemspec'
+    - "braintree.gemspec"
 
 AllCops:
   DisabledByDefault: true
@@ -26,14 +26,7 @@ Layout/SpaceInsideHashLiteralBraces:
 Layout/SpaceInsideParens:
   EnforcedStyle: no_space
 
-Layout/IndentationStyle:
-  EnforcedStyle: spaces
-  Enabled: true
-
 Layout/TrailingWhitespace:
-  Enabled: true
-
-Lint/AmbiguousAssignment:
   Enabled: true
 
 Lint/AmbiguousBlockAssociation:
@@ -51,33 +44,16 @@ Lint/AssignmentInCondition:
 Lint/BigDecimalNew:
   Enabled: true
 
-Lint/BinaryOperatorWithIdenticalOperands:
-  Enabled: true
-
 Lint/BooleanSymbol:
   Enabled: true
 
 Lint/CircularArgumentReference:
   Enabled: true
 
-Lint/ConstantDefinitionInBlock:
-  Enabled: true
-
-# NEXT_MAJOR_VERSION add ConstantResolution rule and start changing all constants to
-# SCREAMING_SNAKE_CASE
-Lint/ConstantResolution:
-  Enabled: false
-
 Lint/Debugger:
   Enabled: true
 
 Lint/DeprecatedClassMethods:
-  Enabled: true
-
-Lint/DeprecatedConstants:
-  Enabled: true
-
-Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 
 Lint/DisjunctiveAssignmentInConstructor:
@@ -86,22 +62,10 @@ Lint/DisjunctiveAssignmentInConstructor:
 Lint/DuplicateCaseCondition:
   Enabled: true
 
-Lint/DuplicateElsifCondition:
-  Enabled: true
-
 Lint/DuplicateHashKey:
   Enabled: true
 
 Lint/DuplicateMethods:
-  Enabled: true
-
-Lint/DuplicateRegexpCharacterClassElement:
-  Enabled: true
-
-Lint/DuplicateRequire:
-  Enabled: true
-
-Lint/DuplicateRescueException:
   Enabled: true
 
 Lint/EachWithObjectArgument:
@@ -110,25 +74,10 @@ Lint/EachWithObjectArgument:
 Lint/ElseLayout:
   Enabled: true
 
-Lint/EmptyBlock:
-  Enabled: true
-  AllowComments: true
-  Exclude:
-  - spec/integration/braintree/document_upload_spec.rb
-
-Lint/EmptyClass:
-  Enabled: true
-
-Lint/EmptyConditionalBody:
-  Enabled: true
-
 Lint/EmptyEnsure:
   Enabled: true
 
 Lint/EmptyExpression:
-  Enabled: true
-
-Lint/EmptyFile:
   Enabled: true
 
 Lint/EmptyInterpolation:
@@ -143,22 +92,13 @@ Lint/EnsureReturn:
 Lint/FlipFlop:
   Enabled: true
 
-Lint/FloatComparison:
-  Enabled: true
-
 Lint/FloatOutOfRange:
   Enabled: true
 
 Lint/FormatParameterMismatch:
   Enabled: true
 
-Lint/HashCompareByIdentity:
-  Enabled: true
-
 Lint/HeredocMethodCallPosition:
-  Enabled: true
-
-Lint/IdentityComparison:
   Enabled: true
 
 Lint/ImplicitStringConcatenation:
@@ -171,9 +111,6 @@ Lint/InheritException:
   Enabled: true
 
 Lint/InterpolationCheck:
-  Enabled: true
-
-Lint/LambdaWithoutLiteralBlock:
   Enabled: true
 
 Lint/LiteralAsCondition:
@@ -203,22 +140,10 @@ Lint/NextWithoutAccumulator:
 Lint/NonDeterministicRequireOrder:
   Enabled: true
 
-Lint/NoReturnInBeginEndBlocks:
-  Enabled: true
-
 Lint/NonLocalExitFromIterator:
   Enabled: true
 
-Lint/NumberedParameterAssignment:
-  Enabled: true
-
-Lint/OrAssignmentToConstant:
-  Enabled: true
-
 Lint/OrderedMagicComments:
-  Enabled: true
-
-Lint/OutOfRangeRegexpRef:
   Enabled: true
 
 Lint/ParenthesesAsGroupedExpression:
@@ -242,13 +167,7 @@ Lint/RedundantCopDisableDirective:
 Lint/RedundantCopEnableDirective:
   Enabled: true
 
-Lint/RedundantDirGlobSort:
-  Enabled: true
-
 Lint/RedundantRequireStatement:
-  Enabled: true
-
-Lint/RedundantSafeNavigation:
   Enabled: true
 
 Lint/RedundantSplatExpansion:
@@ -305,7 +224,7 @@ Lint/ShadowedException:
 Lint/ShadowingOuterLocalVariable:
   Enabled: true
   Exclude:
-   - spec/**/*
+    - spec/**/*
 
 Lint/StructNewOverride:
   Enabled: true
@@ -314,46 +233,22 @@ Lint/SuppressedException:
   Enabled: true
   AllowComments: true
 
-Lint/SymbolConversion:
-  Enabled: true
-
 Lint/Syntax:
-  Enabled: true
-
-Lint/ToEnumArguments:
   Enabled: true
 
 Lint/ToJSON:
   Enabled: true
 
-Lint/TopLevelReturnWithArgument:
-  Enabled: true
-
-Lint/TrailingCommaInAttributeDeclaration:
-  Enabled: true
-
-Lint/TripleQuotes:
-  Enabled: true
-
 Lint/UnderscorePrefixedVariableName:
-  Enabled: true
-
-Lint/UnexpectedBlockArity:
   Enabled: true
 
 Lint/UnifiedInteger:
   Enabled: true
 
-Lint/UnmodifiedReduceAccumulator:
-  Enabled: true
-
 Lint/UnreachableCode:
   Enabled: true
   Exclude:
-   - lib/braintree/xml/parser.rb
-
-Lint/UnreachableLoop:
-  Enabled: true
+    - lib/braintree/xml/parser.rb
 
 Lint/UnusedBlockArgument:
   Enabled: true
@@ -373,19 +268,13 @@ Lint/UselessAssignment:
 Lint/UselessElseWithoutRescue:
   Enabled: true
 
-Lint/UselessMethodDefinition:
-  Enabled: true
-
 Lint/UselessSetterCall:
-  Enabled: true
-
-Lint/UselessTimes:
   Enabled: true
 
 Lint/Void:
   Enabled: true
   Exclude:
-   - spec/**/*
+    - spec/**/*
 
 Style/DefWithParentheses:
   Enabled: true
