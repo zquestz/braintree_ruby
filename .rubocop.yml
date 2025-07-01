@@ -4,7 +4,7 @@ Gemspec/RequiredRubyVersion:
 
 AllCops:
   DisabledByDefault: true
-  TargetRubyVersion: 2.6
+  TargetRubyVersion: 2.3
   SuggestExtensions: false
 
 Layout/BlockAlignment:
@@ -229,7 +229,7 @@ Lint/PercentStringArray:
 
 Lint/PercentSymbolArray:
   Enabled: true
-  
+
 Lint/RaiseException:
   Enabled: true
 
